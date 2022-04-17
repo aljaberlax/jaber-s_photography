@@ -22,6 +22,7 @@ const Header = () => {
                 <Link to="/booking">Bookings</Link>
                 <Link to="/contact">Contact Us</Link>
                 <Link to="/blogs">Blogs</Link>
+                <Link to="/aboutme">About Me</Link>
                 {
                     user ?
                         <button className='btn btn-link text-white text-decoration-none' onClick={handleSignOut}>sign out</button>

@@ -7,6 +7,7 @@ import Footer from "./Footer/Footer";
 import Header from "./Header/Header";
 import Home from "./Home/Home";
 import Login from "./Login/Login";
+import Myself from "./MySelf/Myself";
 import Packeges from "./Packeges/Packeges";
 import PackegeWithDetails from "./PackegeWithDetails/PackegeWithDetails";
 import Register from "./Register/Register";
@@ -30,6 +31,7 @@ function App() {
       </Route>
       <Route path="/contact" element={<Contact></Contact>}></Route>
       <Route path="/blogs" element={<Blogs></Blogs>}></Route>
+      <Route path="/aboutme" element={<Myself></Myself>}></Route>
       <Route path="/login" element={<Login></Login>}></Route>
       <Route path="/register" element={<Register></Register>}></Route>
       </Routes>
