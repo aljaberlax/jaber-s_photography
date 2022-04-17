@@ -1,5 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import About from "./About/About";
+import Blogs from "./Blogs/Blogs";
 import Booking from "./Booking/Booking";
 import Contact from "./ContactUs/Contact";
 import Footer from "./Footer/Footer";
@@ -28,6 +29,7 @@ function App() {
         
       </Route>
       <Route path="/contact" element={<Contact></Contact>}></Route>
+      <Route path="/blogs" element={<Blogs></Blogs>}></Route>
       <Route path="/login" element={<Login></Login>}></Route>
       <Route path="/register" element={<Register></Register>}></Route>
       </Routes>
