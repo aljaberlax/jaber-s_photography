@@ -1,0 +1,19 @@
+.packegs{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 30px;
+    padding: 20px;
+    
+}
+
+.packege1{
+    /* border: 1px solid gray; */
+    border-radius: 30px;
+
+}
+
+.packege1 img{
+    height: 300px;
+    width: 100%;
+    border-radius: 30px;
+}
