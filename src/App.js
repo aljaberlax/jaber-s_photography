@@ -8,6 +8,7 @@ import Header from "./Header/Header";
 import Home from "./Home/Home";
 import Login from "./Login/Login";
 import Myself from "./MySelf/Myself";
+import NotFound from "./NotFound/NotFound";
 import Packeges from "./Packeges/Packeges";
 import PackegeWithDetails from "./PackegeWithDetails/PackegeWithDetails";
 import Register from "./Register/Register";
@@ -34,6 +35,7 @@ function App() {
       <Route path="/aboutme" element={<Myself></Myself>}></Route>
       <Route path="/login" element={<Login></Login>}></Route>
       <Route path="/register" element={<Register></Register>}></Route>
+      <Route path="*" element={<NotFound></NotFound>}></Route>
       </Routes>
       <Footer></Footer>
     </div>

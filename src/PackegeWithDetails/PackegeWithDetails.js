@@ -65,18 +65,6 @@ const PackegeWithDetails = () => {
                     <button onClick={navigateBookNow} className='btn btn-primary'>Book Now</button>
                 </div>
                 <div className='packege1'>
-                    <img src={pakege2} alt="" />
-                    <h3>Packege Name: Wedding Photography</h3>
-                    <p>Service Includs:</p>
-                    <p>
-                        <small>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Ipsum recusandae veniam possimus ullam.
-                        </small>
-                    </p>
-                    <h3>Price:$200</h3>
-                    <button onClick={navigateBookNow} className='btn btn-primary'>Book Now</button>
-                </div>
-                <div className='packege1'>
                     <img src={pakege1} alt="" />
                     <h3>Packege Name: Outdoor Photography</h3>
                     <p>Service Includs:</p>
@@ -88,6 +76,19 @@ const PackegeWithDetails = () => {
                     <h3>Price:$100</h3>
                     <button onClick={navigateBookNow} className='btn btn-primary'>Book Now</button>
                 </div>
+                <div className='packege1'>
+                    <img src={pakege2} alt="" />
+                    <h3>Packege Name: Wedding Photography</h3>
+                    <p>Service Includs:</p>
+                    <p>
+                        <small>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Ipsum recusandae veniam possimus ullam.
+                        </small>
+                    </p>
+                    <h3>Price:$200</h3>
+                    <button onClick={navigateBookNow} className='btn btn-primary'>Book Now</button>
+                </div>
+
 
             </div>
         </div>
