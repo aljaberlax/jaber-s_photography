@@ -1,0 +1,26 @@
+.myself {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    text-align: start;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.myself img {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+
+@media screen and (max-width:500px) {
+    .myself{
+        display: grid;
+        text-align: center;
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 30px;
+        padding: 20px;
+        
+    }
+    
+}
