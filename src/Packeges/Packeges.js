@@ -1,10 +1,15 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import pakege1 from '../Packeges/packeges_Images/slider1.jpg'
 import pakege2 from '../Packeges/packeges_Images/slider2.jpg'
 import pakege3 from '../Packeges/packeges_Images/slider3.jpg'
 import './packeges.css'
 
 const Packeges = () => {
+    const navigate=useNavigate()
+    const navigateBookNow=()=>{
+            navigate('/booking')
+    }
     return (
         <div className=' text-center'>
             <h1>Packeges!!</h1>
@@ -18,7 +23,8 @@ const Packeges = () => {
                             Ipsum recusandae veniam possimus ullam.
                         </small>
                     </p>
-                    <button className='btn btn-primary'>Book Now</button>
+                    <h3>Price:$100</h3>
+                    <button onClick={navigateBookNow} className='btn btn-primary'>Book Now</button>
                 </div>
 
                 <div className='packege1'>
@@ -30,7 +36,8 @@ const Packeges = () => {
                             Ipsum recusandae veniam possimus ullam.
                         </small>
                     </p>
-                    <button className='btn btn-primary'>Book Now</button>
+                    <h3>Price:$200</h3>
+                    <button  onClick={navigateBookNow} className='btn btn-primary'>Book Now</button>
                 </div>
 
                 <div className='packege1'>
@@ -42,7 +49,8 @@ const Packeges = () => {
                             Ipsum recusandae veniam possimus ullam.
                         </small>
                     </p>
-                    <button className='btn btn-primary'>Book Now</button>
+                    <h3>Price:$200</h3>
+                    <button  onClick={navigateBookNow} className='btn btn-primary'>Book Now</button>
                 </div>
             </div>
         </div>
