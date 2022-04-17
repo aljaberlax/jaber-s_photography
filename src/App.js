@@ -6,6 +6,7 @@ import Header from "./Header/Header";
 import Home from "./Home/Home";
 import Login from "./Login/Login";
 import Packeges from "./Packeges/Packeges";
+import Register from "./Register/Register";
 
 
 
@@ -21,6 +22,7 @@ function App() {
       <Route path="/booking" element={<Booking></Booking>}></Route>
       <Route path="/contact" element={<Contact></Contact>}></Route>
       <Route path="/login" element={<Login></Login>}></Route>
+      <Route path="/register" element={<Register></Register>}></Route>
       </Routes>
     </div>
   );
