@@ -6,7 +6,7 @@ const Myself = () => {
     return (
         <div className='container myself'>
             <div>
-                <h1>This is Jaber</h1>
+                <h1>This is AL  JABER</h1>
                 <img src={myself} alt="" />
             </div>
             <div>
@@ -22,7 +22,7 @@ const Myself = () => {
                     But now I like Coading. I try to make website . I also like paly mobile game like pubg,COD.
                 </p>
                 <p>
-                    <span style={{ color: 'blue' }} > MY Missin: </span> I want to be a MERN Full Stack Developer.
+                    <span style={{ color: 'blue' }} > MY Mission: </span> I want to be a MERN Full Stack Developer.
                 </p>
             </div>
         </div>

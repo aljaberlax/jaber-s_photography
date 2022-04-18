@@ -1,8 +1,8 @@
 import React from 'react';
-
+import './ContactUs.css'
 const Contact = () => {
     return (
-        <div>
+        <div className='contact_us'>
                 <h1>this is contact us</h1>
         </div>
     );
