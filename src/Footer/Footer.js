@@ -15,12 +15,12 @@ const Footer = () => {
                         <div className="col-xs-6 col-md-3">
                             <h6>Categories</h6>
                             <ul className="footer-links">
-                                <li><a href="http://scanfcode.com/category/c-language/">C</a></li>
-                                <li><a href="http://scanfcode.com/category/front-end-development/">UI Design</a></li>
-                                <li><a href="http://scanfcode.com/category/back-end-development/">PHP</a></li>
-                                <li><a href="http://scanfcode.com/category/java-programming-language/">Java</a></li>
-                                <li><a href="http://scanfcode.com/category/android/">Android</a></li>
-                                <li><a href="http://scanfcode.com/category/templates/">Templates</a></li>
+                                <li><a href="http://scanfcode.com/category/c-language/">weeding photography</a></li>
+                                <li><a href="http://scanfcode.com/category/front-end-development/">candid photography</a></li>
+                                <li><a href="http://scanfcode.com/category/back-end-development/">birthday photography</a></li>
+                                <li><a href="http://scanfcode.com/category/java-programming-language/">yellow tuch photography</a></li>
+                                <li><a href="http://scanfcode.com/category/android/">wild life photography</a></li>
+                                <li><a href="http://scanfcode.com/category/templates/">meeting photography</a></li>
                             </ul>
                         </div>
 
@@ -41,7 +41,7 @@ const Footer = () => {
                     <div className="row">
                         <div className="col-md-8 col-sm-6 col-xs-12">
                             <p className="copyright-text">Copyright &copy; 2017 All Rights Reserved by
-                                <a href="#">Scanfcode</a>.
+                                <a href="#"> jaber's photography</a>.
                             </p>
                         </div>
 
