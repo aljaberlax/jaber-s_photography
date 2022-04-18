@@ -14,3 +14,12 @@ https://jabers-photography.netlify.app/
 4.In futur I will add more services.
 5.such that (wild life photography,TVC photography,annual cultural photography , birthday photography .
 6.Thanks everyone and stay with me.
+
+### Technology Used
+1.react routes
+2.react firebase
+3.react router dom
+4.react bootstrape
+5.google firebase 
+6.authentication with email and password
+
